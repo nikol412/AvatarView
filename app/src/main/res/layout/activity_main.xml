@@ -12,6 +12,7 @@
         android:padding="16dp"
         app:av_background="@android:color/holo_green_dark"
         app:av_text="Nikita Travin"
-        app:av_textColor="@android:color/holo_orange_light" />
+        app:av_textColor="@android:color/holo_orange_light"
+        app:av_textSize="12sp" />
 
 </LinearLayout>
