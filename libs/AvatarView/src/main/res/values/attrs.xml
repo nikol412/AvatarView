@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AvatarView">
+        <attr name="av_text" format="string"/>
+        <attr name="av_background" format="color"/>
+        <attr name="av_textColor" format="color"/>
+    </declare-styleable>
+</resources>
