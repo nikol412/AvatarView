@@ -4,5 +4,6 @@
         <attr name="av_text" format="string"/>
         <attr name="av_background" format="color"/>
         <attr name="av_textColor" format="color"/>
+        <attr name="av_textSize" format="dimension"/>
     </declare-styleable>
 </resources>

@@ -48,8 +48,11 @@ class AvatarView @JvmOverloads constructor(
         ) {
             val fullText = getString(R.styleable.AvatarView_av_text) ?: ""
             avatarText = getFirstCharsOfString(fullText)
+
             backgroundPaint.color = getColor(R.styleable.AvatarView_av_background, Color.WHITE)
+
             textPaint.color = getColor(R.styleable.AvatarView_av_textColor, Color.BLACK)
+            textPaint.textSize = getDimension(R.styleable.AvatarView_av_textSize, 55.0f)
         }
         textPaint.textAlign = Paint.Align.CENTER
     }
